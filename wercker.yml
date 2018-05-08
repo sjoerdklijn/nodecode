@@ -18,6 +18,7 @@ build:
         opc_password: $OPC_PASSWORD
         rest_url: $REST_URL
         domain: $IDENTITY_DOMAIN
+        idcs: $IDCS
         application_name: nodefighter$OPC_USERNAME
         application_type: node
         file: node_fighter-0.0.1.$OPC_USERNAME.zip
