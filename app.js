@@ -6,7 +6,7 @@ var connection = connectToDatabase('myHost', 'myUser', 'myPassword', 'myDatabase
 var app = express();
 
 app.use(express.static('public'));
-
+console.log('Exact name: ' + process.env.ORA_INSTANCE_NAME);
 //runGetRequest();
 //runDatabaseQuery();
 
