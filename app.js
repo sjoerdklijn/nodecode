@@ -9,7 +9,7 @@ app.use(express.static('public'));
 console.log('Exact name: ' + process.env.ORA_INSTANCE_NAME);
 //runGetRequest();
 //runDatabaseQuery();
-//TEST
+
 // Does a GET request to ip.jsontest.com
 function runGetRequest() {
     
