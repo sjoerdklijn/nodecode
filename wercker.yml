@@ -16,9 +16,8 @@ build:
     - linushak/oracle-accs-deploy:
         opc_user: $OPC_USERNAME
         opc_password: $OPC_PASSWORD
-        rest_url: $REST_URL
         domain: $IDENTITY_DOMAIN
-        idcs: $IDCS
+        IDENTIFIER: $IDENTIFIER
         application_name: $WERCKER_GIT_OWNER
         application_type: node
         file: node_fighter-0.0.1.$OPC_USERNAME.zip
