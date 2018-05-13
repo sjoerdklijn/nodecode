@@ -16,6 +16,7 @@ build:
     - linushak/oracle-accs-deploy:
         opc_user: $OPC_USERNAME
         opc_password: $OPC_PASSWORD
+        rest_url: https://apaas.us.oraclecloud.com/paas/service/apaas/api/
         domain: $IDENTITY_DOMAIN
         IDENTIFIER: $IDENTIFIER
         application_name: $WERCKER_GIT_OWNER
