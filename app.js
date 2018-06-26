@@ -36,6 +36,8 @@ function runDatabaseQuery() {
     });
 };
 
+//
+
 // Returns a connection object to the database.
 function connectToDatabase(host, user, password, database) {
     var connectionJson = {
