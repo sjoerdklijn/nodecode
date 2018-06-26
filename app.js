@@ -2,7 +2,7 @@
 var express = require('express');
 var request = require('request');
 var mysql = require('mysql');
-var connection = connectToDatabase('myHost', 'myUser', 'myPassword', 'myDatabase');
+var connection = connectToDatabase('140.86.15.104', 'Captain', 'welcome1', 'deathstar');
 
 var app = express();
 
@@ -15,7 +15,7 @@ runGetRequest();
 function runGetRequest() {
     
     //sample URL.
-    var url = "http://140.86.15.104:3000/fighters/45/9/green/sjoerdklijn";
+    var url = "http://140.86.15.104:3000/reactorCore/45/9/green/sjoerdklijn";
     request(url, function(error, response, body) {
         if(!error) {
             console.log(body);
