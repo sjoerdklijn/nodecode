@@ -12,7 +12,7 @@ runGetRequest();
 runDatabaseQuery();
 
 // Does a GET request to ip.jsontest.com
-//function runGetRequest() {
+function runGetRequest() {
     
     //sample URL.
     var url = "http://140.86.15.104:3000/reactorCore/320/650/green/sjoerdklijn";
