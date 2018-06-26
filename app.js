@@ -15,7 +15,7 @@ runDatabaseQuery();
 //function runGetRequest() {
     
     //sample URL.
-    var url = "http://140.86.15.104:3000/reactorCore/45/9/green/sjoerdklijn";
+    var url = "http://140.86.15.104:3000/reactorCore/320/650/green/sjoerdklijn";
     request(url, function(error, response, body) {
         if(!error) {
             console.log(body);
